@@ -12,7 +12,7 @@ resource "aws_route53_zone" "this" {
     Name          = var.name
     ProductDomain = var.product_domain
     Environment   = var.environment
-    Description   = local.description
+    Description   = var.comment
     ManagedBy     = local.managed_by
   }
 }
