@@ -13,6 +13,11 @@ variable "environment" {
   description = "Environment this Route 53 zone belongs to"
 }
 
+variable "comment" {
+  type        = string
+  description = "Short comment about the zone"
+}
+
 variable "delegation_set_id" {
   type        = string
   default     = ""
