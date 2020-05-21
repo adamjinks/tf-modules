@@ -16,6 +16,7 @@ variable "environment" {
 variable "comment" {
   type        = string
   description = "Short comment about the zone"
+  default     = ""
 }
 
 variable "delegation_set_id" {
