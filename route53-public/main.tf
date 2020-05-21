@@ -1,5 +1,5 @@
 locals {
-  description = Public zone for var.name
+  description = "Public zone for var.name"
   managed_by  = "Terraform 0.12"
 }
 
